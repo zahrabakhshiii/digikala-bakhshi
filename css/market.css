@@ -1,0 +1,103 @@
+.market{
+    width: 100%;
+    height: 600px;
+    padding-top: 20PX 0;
+ 
+  .market__list{
+    width: 1326px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    margin: 0 auto;
+  
+    .market__list__item{
+      width: 320px;
+      height: 240px;
+      a{
+        display: inline-block;
+        img{
+          width: 100%;
+          height: 100%;
+          border-radius: 16px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+   .market__bar{
+    width: 1326px;
+    height: 110px;
+    background-color: rgb(235, 235, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px auto;
+    border-radius: 16px;
+    .market__bar__icons{
+      width: 1248px;
+      height: 74px;
+      display: flex;
+      .amazing__supermarket{
+        display: flex;
+        .text{
+          width: 250px;
+          height: 28px;
+          margin-bottom: 17px;
+        }
+        .amazing__supermarket__text{
+          width: 109px;
+          height: 26px;
+          border-radius: 999px;
+          background-color: #029a49;
+          display: flex;
+          align-items: center;
+          margin: 24px 20px 17px 152px;
+          p{
+            font-size: 14px;
+            color: white;
+            font-weight: 700;
+            line-height: 30px;
+            margin: 0 auto;
+          }
+        }
+      }
+      .icons{
+        width: 493px;
+        height: inherit;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .icon{
+          img{
+            width: 58px;
+            height: 58px;
+            border-radius: 50%;
+            object-fit: cover;
+          }
+        }
+      }
+      .more{
+        width: 147px;
+        height: 50px;
+        border-radius: 999px;
+        background-color: white;
+        margin-top: 10px;
+        margin-right: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        span{
+          color: #029a49;
+          font-size: 12px;
+          font-weight: 700;
+        }
+        svg{
+          width: 20px;
+          height: 20px;
+          fill: #029a49;
+        }
+      }
+    }
+   } 
+  }

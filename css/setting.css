@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: yekan, homa;
+}
+body{
+  height: 3000px;
+}
+@font-face {
+  font-family: yekan;
+  src: url(../font/yekan/IRANYekanWeb.eot);
+  src: url(../font/yekan/IRANYekanWeb.ttf);
+  src: url(../font/yekan/IRANYekanWeb.woff);
+  src: url(../font/yekan/IRANYekanWeb.woff2);
+}
+@font-face {
+  font-family: homa;
+  src: url(../font/homa/BHoma.eot);
+  src: url(../font/homa/BHoma.ttf);
+  src: url(../font/homa/BHoma.woff);
+  src: url(../font/homa/BHoma.woff2);
+}

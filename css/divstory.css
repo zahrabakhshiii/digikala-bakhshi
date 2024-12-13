@@ -1,0 +1,48 @@
+.story__container{
+    width: 100%;
+    height: 400px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    h3{
+        font-size: 31px;
+        font-weight: 100;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        
+    }
+            .divstor__center{
+            width: 80%;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            
+
+        .story__item{
+            width: 130px;
+            height: 180px;
+            padding-top: 15px;
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            img{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+            }
+            p{
+                font-size: 12px;
+
+            }
+        }
+    }
+}
+
+
